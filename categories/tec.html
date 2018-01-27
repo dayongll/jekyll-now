@@ -9,10 +9,10 @@ permalink: /categories/tec/
 
   {% for post in site.posts %}
 
-    <article class="post">
-
-
       {% if post.categories == "tec"% }
+      <article class="post">
+
+
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
 
@@ -26,9 +26,9 @@ permalink: /categories/tec/
 
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      {% endif %}
-    </article>
+      </article>
 
+      {% endif %}
   {% endfor %}
 
 </div>
